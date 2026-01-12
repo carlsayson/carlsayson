@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "carlsayson.me"
+        }
+      ],
+      "destination": "https://www.carlsayson.me/$1",
+      "permanent": true
+    }
+  ]
+}
